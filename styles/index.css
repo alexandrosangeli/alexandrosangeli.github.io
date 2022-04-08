@@ -1,6 +1,6 @@
 #avatar-img {
-    width: 200px;
     float: left;
+    width: 300px;
 }
 
 .intro-section {
@@ -10,7 +10,15 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
+.note-section {
+    /* background-color: var(--sectionColour); */
+    width: 800px;
+    height:250px;
+    margin: 0 auto;
+}
+
+
+/* @media screen and (max-width: 900px) {
     #avatar-img {
         width: 75%;
     }
@@ -18,4 +26,8 @@
     .intro-section {
         width: 100%;
     }
-}
+
+    .nav-bar-div {
+        width: 80%;
+    }
+} */

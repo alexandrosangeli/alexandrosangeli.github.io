@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .projects-section {
         width: 50%;
     }
@@ -23,4 +23,4 @@
         width: 50%;
         height: 50%;
     }
-}
+} */
