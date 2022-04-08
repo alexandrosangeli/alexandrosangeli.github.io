@@ -59,11 +59,14 @@ h2 {
 }
 
 .nav-links li a:hover {
-    /* text-transform:lowercase; */
+    display: inline-block;
     text-decoration:overline;
-    /* text-decoration:dotted; */
     text-decoration-color: rgb(137, 0, 250);
+    color: rgb(105, 0, 190);
+    transition: transform 0.25s ease-out;
 }
+
+
 
 /* .footer {
     position:fixed;

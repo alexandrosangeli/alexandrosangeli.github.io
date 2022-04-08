@@ -1,12 +1,12 @@
 #avatar-img {
-    width: 400px;
+    width: 200px;
     float: left;
 }
 
 .intro-section {
-    background-color: var(--sectionColour);
+    /* background-color: var(--sectionColour); */
     width: 800px;
-    height: 500px;
+    height:250px;
     margin: 0 auto;
 }
 
