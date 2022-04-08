@@ -1,0 +1,41 @@
+:root {
+    --mainHeadingColour:rgb(0, 0, 0);
+    --mainText:red;
+    --sectionColour: rgb(255, 255, 255);
+}
+
+html, body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: var(--mainHeadingColour);
+}
+
+section {
+    width: 800px;
+    margin: auto;
+}
+
+#avatar-img {
+    max-width: 400px;
+    float: left;
+}
+
+.intro-section {
+    background-color: var(--sectionColour);
+}
+
+/* responsiveness */
+@media screen and (max-width: 800px) {
+    #avatar-img {
+        width: 75%;
+    }
+
+    section {
+        width: 100%;
+    }
+}
