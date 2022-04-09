@@ -71,6 +71,15 @@ h2 {
     transition: transform 0.25s ease-out;
 }
 
+a {
+    color: rgb(105, 0, 190);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 
 /* .footer {

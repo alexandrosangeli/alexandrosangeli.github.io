@@ -4,5 +4,10 @@
 }
 
 .about-section h1, strong, a, h3 {
+    text-decoration: none;
     color: rgb(105, 0, 190);
+}
+
+a:hover {
+    text-decoration: underline;
 }

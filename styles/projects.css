@@ -41,6 +41,12 @@
     border: 1px solid;
 }
 
+.msg {
+    text-align: center;
+    color: rgb(105, 0, 175);
+
+}
+
 /* .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
