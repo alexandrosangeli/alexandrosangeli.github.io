@@ -1,0 +1,8 @@
+.about-section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h1, strong, a, h3 {
+    color: rgb(105, 0, 190);
+}
