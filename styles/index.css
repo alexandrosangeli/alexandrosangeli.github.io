@@ -17,14 +17,14 @@
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, a {
+/* h1, h2, h3, h4, a {
     color: rgb(105, 0, 190);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-}
+} */
 
 
 /* @media screen and (max-width: 900px) {
