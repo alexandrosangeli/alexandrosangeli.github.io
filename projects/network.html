@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/projects/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/projects/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/projects/favicon-16x16.png">
+    <link rel="manifest" href="../favicons/projects/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="../styles/base.css">
+    <link rel="stylesheet" type="text/css" href="../styles/projects.css">
+    <link rel="stylesheet" type="text/css" href="../styles/projects/network.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router Topology | Projects | Alexandros</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="../projects.html">Back</a></li>
+        </ul>
+    </nav>
+    <hr class="divider">
+
+    <section class="projects-section">
+        <div>
+            <p>
+                I created a network topology generator using C, Python, BASH, Traceroute and Graphviz. The execution is fully automated using the aformentioned set of technologies.
+            </p>
+            <p>
+                Let's take the technologies and how they are used one by one.
+            </p>
+            <ul>
+                <li>C is used to create a DNS lookup. It returns a IPv4 and IPv6 address given a DNS name - e.g. example.com.</li>
+                <li>Traceroute, a Linux command, is used to track the path of a packet send from the source to a destination IPv4 and IPv6 address.</li>
+                <li>Python is used to format the output from Traceroute into an acceptable format for Graphviz.</li>
+                <li>Graphviz is used to generate an undirected map - i.e. the topology - using the formatted output of Traceroute.</li>
+                <li>Finally, BASH is used to glue all the steps together and fully automated the process. That is, the BASH file can be executed given one or more command line arguments as DNS names, and when it is done, the topology map is generated.</li>
+            </ul>
+            <hr class="divider">
+            <h2>Background</h2>
+            <p>This project was part of a University assignment. As a true programmer, I worked for several hours to automate the process of generating a topology map instead of doing it by hand in a few minutes. I can only provide the source code for the Python and BASH file as they were the only files not assessed.</p>
+            <p><a href="https://gist.github.com/alexandrosangeli/ce982e900f5a45cdca0f20634502e903">Python and BASH souce code.</a></p>
+
+            <hr class="divider">
+            <h2>Example Output</h2>
+            <figure>
+                <figcaption>Fig.1 - Example of a generated router topology map of a packet from University of Glasgow, School of Computing Science to three different sites.</figcaption>
+                <img src="../images/projects_grid_images/topology.png" alt="Topology">
+              </figure>
+        </div>
+    </section>
+
+</body>
+</html>

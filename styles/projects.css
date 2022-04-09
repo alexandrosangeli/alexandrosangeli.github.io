@@ -37,8 +37,22 @@
     margin: 5px;
 }
 
-.snake-project img:hover {
+/* .snake-project img:hover {
     border: 1px solid;
+} */
+
+.network-project img {
+    width: 150px;
+    float: left;
+    margin: 5px;
+}
+
+/* .network-project img:hover {
+    border: 1px solid;
+} */
+
+.network-project {
+    height: 150px;
 }
 
 .msg {

@@ -1,0 +1,13 @@
+.projects-section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h2, a {
+    text-decoration: none;
+    color: rgb(105, 0, 190);
+}
+
+a:hover {
+    color: rgba(124, 0, 207, 0.664);
+}
