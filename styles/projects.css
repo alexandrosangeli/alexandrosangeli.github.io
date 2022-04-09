@@ -9,10 +9,67 @@
 }
 
 .projects-section {
-    background-color: var(--sectionColour);
     width: 800px;
     margin: 0 auto;
 }
+
+.all-projects {
+    width: 800px;
+    /* height: 200px; */
+    margin: 0 auto;
+}
+
+.all-projects h1 a {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+.all-projects a:hover {
+    color: rgba(124, 0, 207, 0.664);
+}
+
+.snake-project {
+    height: 200px;
+}
+
+.snake-project img {
+    float: left;
+    margin: 5px;
+}
+
+.snake-project img:hover {
+    border: 1px solid;
+}
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    width: 750px;
+    margin: 0 auto;
+  }
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(137, 0, 250);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    height: 80px;
+  }
+
+  .one {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(162, 31, 173) , rgb(244, 206, 255));
+    background-image: url("../images/projects_grid_images/battlesnake.jpg");
+    color: rgb(137, 0, 250);
+    font-size: medium;
+  }
+
+.item-span {
+    background-color: aliceblue;
+} */
 
 /* @media screen and (max-width: 800px) {
     .projects-section {

@@ -1,1 +1,1 @@
-$(".nav-bar-div").load("navbar.html")
+$(".nav-bar-div").load("../navbar.html")
