@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alexandros.angeli.github.io/sitemap.xml
+Sitemap: https://alexandrosangeli.github.io/sitemap.xml
