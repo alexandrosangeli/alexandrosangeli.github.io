@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: a curious mind
+subtitle: Curious mind.
 
 profile:
   align: right
